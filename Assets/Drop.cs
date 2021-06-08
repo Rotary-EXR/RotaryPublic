@@ -11,14 +11,14 @@ public class Drop : NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
     public GameObject drop;//your sword
-    
+
     private void OnDestroy() //called, when enemy will be destroyed
     {
 
-        if (!isClient)
+        if (!isClient) //Temporairement désactivé, fait planté le  client si le serveur est fermé ou si le client se déconnecte
         {
            // var Stone = (GameObject)Instantiate(drop, transform.position, drop.transform.rotation);
            // NetworkServer.Spawn(Stone);
@@ -27,13 +27,13 @@ public class Drop : NetworkBehaviour
 
     }
 
-   
-   
-    
+
+
+
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

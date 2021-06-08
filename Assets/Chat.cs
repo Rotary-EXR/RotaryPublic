@@ -14,7 +14,7 @@ public class Chat : NetworkBehaviour
     private float chat = 0;
     private float name = 0;
     private static event Action<string> OnMessage;
-   
+
     // Called when the a client is connected to the server
     public override void OnStartAuthority()
     {
@@ -23,11 +23,11 @@ public class Chat : NetworkBehaviour
             string name;
             name = PlayerName.name;
             CmdJoin(name);
-         
+
         }
 
         OnMessage += HandleNewMessage;
-       
+
     }
 
 
@@ -61,15 +61,15 @@ public class Chat : NetworkBehaviour
     {
         StartCoroutine(StartLeft());
 
-      
-        
+
+
     }
     private IEnumerator StartLeft()
     {
         CmdLeft(PlayerName.name);
         yield return new WaitForSeconds(0.2f);
         Disc();
-       
+
     }
     // When a client hits the enter button, send the message in the InputField
     [Client]
@@ -85,8 +85,8 @@ public class Chat : NetworkBehaviour
         }
         else if (inputField.text == "/help")
         {
-           
-            OnMessage?.Invoke($"\n" + $"Votre version : SP070521-PublicBuild");
+
+            //OnMessage?.Invoke($"\n" + $"Votre version : SP070521-PublicBuild");
             OnMessage?.Invoke($"\n" + $"Command list :");
             OnMessage?.Invoke($"\n" + $"/help");
             OnMessage?.Invoke($"\n" + $"/ping");
@@ -113,7 +113,7 @@ public class Chat : NetworkBehaviour
             CmdSendMessage(inputField.text);
             inputField.text = string.Empty;
         }
-        
+
     }
     private void Name(string name)
     {
@@ -140,12 +140,12 @@ public class Chat : NetworkBehaviour
         // Validate message
         RpcHandleMessage(name + $" est parti");
         UnityEngine.Debug.Log(System.DateTime.Now.ToLongTimeString() + " : " + name + $" est parti");
-        
+
     }
     [Client]
     public void Disc()
     {
-        
+
         NetworkManager.singleton.StopClient();
         //NetworkManager.singleton.StopHost();
     }
@@ -176,6 +176,6 @@ public class Chat : NetworkBehaviour
             inputField.Select();
             inputField.ActivateInputField();
         }
-        
+
     }
     }

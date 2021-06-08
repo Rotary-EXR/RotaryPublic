@@ -9,8 +9,8 @@ using Random = UnityEngine.Random;
 
     public class PlayerController : NetworkBehaviour
     {
-    
-    // [SerializeField] private MouseLook m_MouseLook;
+
+
     //==== blocks
     public GameObject stone;
         public GameObject dirt;
@@ -20,7 +20,9 @@ using Random = UnityEngine.Random;
         public GameObject glass;
         public GameObject oak;
     public GameObject conveyor;
-    //============
+
+
+    //==== visualizer
     public Material Mscreen;
         public Material Mstone;
         public Material Mdirt;
@@ -28,14 +30,14 @@ using Random = UnityEngine.Random;
         public Material Mgravel;
         public Material Mglass;
         public Material Moak;
-
         public Material Mvisu;
+
+
         public GameObject visualizer;
         public Transform stoneSpawn;
         public GameObject viseur;
         public Canvas UIb;
-        // Start is called before the first frame update
-        public Camera cam; // Drag camera into here
+        public Camera cam;
         public GameObject Playercam;
     public GameObject Playercam1;
     public GameObject PlayerHead;
@@ -80,7 +82,7 @@ using Random = UnityEngine.Random;
     {
         if (!isGrounded && rb.velocity.y == 0)
         {
-            isGrounded = true;  } 
+            isGrounded = true;  }
                                //isGrounded = true;
         }
 
@@ -89,16 +91,16 @@ using Random = UnityEngine.Random;
         {
 
             if (!isLocalPlayer) { return; };
-         
+
             var x = Input.GetAxis("Horizontal") * Time.deltaTime * 140.0f;
-       
+
         var z = Input.GetAxis("Vertical") * Time.deltaTime * 6.0f;
         if (t == 0)
         {
             transform.Rotate(0, x, 0);
             transform.Translate(0, 0, z);
         }
-        
+
             if (Input.GetKey("space") && isGrounded)
             {
             if (t == 0)
@@ -107,18 +109,18 @@ using Random = UnityEngine.Random;
                 isGrounded = false;
             }
             //transform.Translate(0, 0.13f, 0);
-            
+
             }
-      
+
             if (Input.GetKey("q"))
             {
             if (t == 0) { transform.Translate(-0.1f, 0, 0); }
-                
+
             }
             if (Input.GetKey("d"))
             {
             if (t == 0) { transform.Translate(0.1f, 0, 0); }
-                
+
             }
         if (t == 0)
         {
@@ -129,12 +131,12 @@ using Random = UnityEngine.Random;
             Playercam.transform.rotation = Quaternion.Euler(0, currentRotation.x, 0);
             Playercam1.transform.rotation = Quaternion.Euler(currentRotation.y, currentRotation.x, 0);
         }
-       
-      
+
+
 
         if (isClient)
             {
-          
+
             stoneSpawn.transform.Translate(Vector3.forward * Input.GetAxis("Mouse ScrollWheel"));
             if (Input.GetMouseButtonDown(0))
                 {
@@ -161,7 +163,7 @@ using Random = UnityEngine.Random;
 
                     }
                 }
-                
+
                 }
                 if (Input.GetKey("escape"))
                 {
@@ -170,7 +172,7 @@ using Random = UnityEngine.Random;
                     Cursor.visible = true;
                     t = 1;
                 }
-               
+
             }
             if (t == 0)
             {
@@ -369,8 +371,8 @@ using Random = UnityEngine.Random;
                     }
                 }
             }
-            
-            if (Input.GetMouseButtonDown(1))
+
+            if (Input.GetMouseButtonDown(1)) //==== A CHANGER UNE FOIS INVENTAIRE FAIT
                 {
                 if (t == 0) { CmdAddCube(selector, rotation, rotationZ, rotationY); }
                     else if(t == 1) { t = 0; }
@@ -435,7 +437,7 @@ using Random = UnityEngine.Random;
 
                 }
                 else if (activeVisu == 1) { visualizer.SetActive(true); activeVisu = 0; }
-                
+
 
             }
 
@@ -457,10 +459,10 @@ using Random = UnityEngine.Random;
         }
 
         }
-       
-   
+
+
     [Command]
-        void CmdAddCube(float selector, int rotation, int rotationZ, int rotationY)
+        void CmdAddCube(float selector, int rotation, int rotationZ, int rotationY) //==== A CHANGER UNE FOIS INVENTAIRE FAIT
         {
         int rx = rotation;
         int rz = rotationZ;
@@ -514,10 +516,10 @@ using Random = UnityEngine.Random;
         }
     }
         [Command]
-        void CmdRemoveCube(GameObject eb)
+        void CmdRemoveCube(GameObject eb) //A CHANGER UNE FOIS INVENTAIRE FAIT (A GARDER SI EQUIVALENT MODE CREATIF)
         {
         Destroy(eb);
         NetworkServer.UnSpawn(eb);
-            
+
         }
     }
