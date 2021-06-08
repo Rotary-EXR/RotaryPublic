@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8252799790696832902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8252799790696832955}
+  - component: {fileID: 8252799790696832983}
+  - component: {fileID: 7967102175936095814}
+  m_Layer: 0
+  m_Name: World
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8252799790696832955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8252799790696832902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.0893245, y: 6.255641, z: -0.20954895}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8252799790696832983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8252799790696832902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
+--- !u!114 &7967102175936095814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8252799790696832902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996049a0367e305498e73feef5d5d1ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stone: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf, type: 3}
+  dirt: {fileID: 9184653093787931614, guid: d0327702462f75848812458cacc8f2d3, type: 3}
+  coal: {fileID: 8001318149419984085, guid: 4f1b9e2490acde543b644f9ed7515f2c, type: 3}
+  grass: {fileID: 2662704206465775409, guid: 459bda24cabb3b247bf34d693c49082f, type: 3}
+  herbe: {fileID: 8910117603130453503, guid: c3729239f81a3584eac8c3177c5831dd, type: 3}
+  gravel: {fileID: 5620618481622996516, guid: 946270ad8565c314292f54f15e80f879, type: 3}
+  tree: {fileID: 3309137272779400792, guid: 039971fba6da73a4f9443fb2965a50aa, type: 3}
+  chunk: {fileID: 5368622449261745059, guid: 1286e0f3a6e5a864a99541f49064c0a3, type: 3}
+  amp: 8
+  freq: 16

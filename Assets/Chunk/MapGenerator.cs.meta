@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 996049a0367e305498e73feef5d5d1ac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - stone: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf, type: 3}
+  - dirt: {fileID: 9184653093787931614, guid: d0327702462f75848812458cacc8f2d3, type: 3}
+  - coal: {fileID: 8001318149419984085, guid: 4f1b9e2490acde543b644f9ed7515f2c, type: 3}
+  - grass: {fileID: 2662704206465775409, guid: 459bda24cabb3b247bf34d693c49082f, type: 3}
+  - gravel: {fileID: 5620618481622996516, guid: 946270ad8565c314292f54f15e80f879,
+      type: 3}
+  - tree: {fileID: 3309137272779400792, guid: 039971fba6da73a4f9443fb2965a50aa, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
