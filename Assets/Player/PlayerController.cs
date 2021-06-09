@@ -42,7 +42,7 @@ using Random = UnityEngine.Random;
     public GameObject Playercam1;
     public GameObject PlayerHead;
         public float sensitivity = 10f;
-        public float maxYAngle = 60f;
+        public float maxYAngle = 75f;
     public Vector3 jump;
     public float jumpForce = 2.0f;
 

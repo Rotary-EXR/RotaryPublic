@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Chunk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &7351908401458502338
 Transform:
@@ -238,6 +238,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -392,6 +397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -548,6 +558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -702,6 +717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -1013,6 +1033,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -1167,6 +1192,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -1323,6 +1353,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -1477,6 +1512,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -1633,6 +1673,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -1787,6 +1832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -1943,6 +1993,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -2097,6 +2152,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -2253,6 +2313,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -2407,6 +2472,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -2873,6 +2943,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -3027,6 +3102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -3338,6 +3418,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -3492,6 +3577,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -3648,6 +3738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -3802,6 +3897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -3958,6 +4058,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -4112,6 +4217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -4423,6 +4533,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -4733,6 +4848,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -4887,6 +5007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -5198,6 +5323,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -5352,6 +5482,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -5663,6 +5798,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -5817,6 +5957,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -5973,6 +6118,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -6127,6 +6277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -6283,6 +6438,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -6437,6 +6597,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
@@ -6593,6 +6758,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -6748,6 +6918,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
       propertyPath: m_RootOrder
@@ -6902,6 +7077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stone (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175351310389384228, guid: d38b4421c22722246831be556d672ecf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6984890624912182811, guid: d38b4421c22722246831be556d672ecf,
         type: 3}
