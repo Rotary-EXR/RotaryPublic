@@ -54,6 +54,7 @@ public class MapGenerator : NetworkBehaviour
             for (int z = 0; z < rows; z+=3)
             {
                 int az = Random.Range(0, 10);
+                int freqZ = Random.Range(0,10);
                 int nb = Random.Range(0, 48);
                 int ch = Random.Range(0, 3);
                 float y1 = Mathf.PerlinNoise(x / freq, z / freq) * amp;
@@ -97,42 +98,34 @@ public class MapGenerator : NetworkBehaviour
                     StaticBatchingUtility.Combine(Tree);
                     UnityEngine.Debug.Log(System.DateTime.Now.ToLongTimeString() + " : " + "Load a Tree");
                 }
-                if (az == 1) //random amplitute
+                switch (az)
                 {
-                    amp = 13f;
+                    case 1:
+                        amp = 11f;
+                        break;
+                    case 2:
+                        amp = 12f;
+                        break;
+                    case 3:
+                        amp = 13f;
+                        break;
+                    case 4:
+                        amp = 10f;
+                        break;
+                    default:
+                        amp = 10f;
+                        break;
                 }
 
-                if (az == 2) //random amplitute
+                switch (freqZ)
                 {
-                    amp = 12f;
-                }
-                if (az == 3) //random amplitute
-                {
-                    amp = 11f;
-                }
-                if (az == 4) //random amplitute
-                {
-                    amp = 13f;
-                }
-                if (az == 5) //random amplitute
-                {
-                    amp = 14f;
-                }
-                if (az == 6) //random amplitute
-                {
-                    amp = 11f;
-                }
-                if (az == 7) //random amplitute
-                {
-                    amp = 10f;
-                }
-                if (az == 8) //random amplitute
-                {
-                    amp = 10f;
-                }
-                if (az == 9) //random amplitute
-                {
-                    amp = 10f;
+                    case 1:
+                        freq = 11f;
+                        break;
+                   
+                    default:
+                        freq = 10f;
+                        break;
                 }
 
             }
