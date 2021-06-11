@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.061867297, g: 0.07899022, b: 0.112537906, a: 1}
+  m_IndirectSpecularColor: {r: 0.061867543, g: 0.078990564, b: 0.11253853, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -533,6 +533,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2710281217587080818, guid: a76fa3ae981ac504cbe4b361107549cb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3724050433454757722, guid: a76fa3ae981ac504cbe4b361107549cb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524395825217578965, guid: a76fa3ae981ac504cbe4b361107549cb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6524395825217578965, guid: a76fa3ae981ac504cbe4b361107549cb,
         type: 3}
       propertyPath: far clip plane
@@ -547,6 +562,21 @@ PrefabInstance:
         type: 3}
       propertyPath: orthographic size
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087769153426874012, guid: a76fa3ae981ac504cbe4b361107549cb,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 6e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087769153426874012, guid: a76fa3ae981ac504cbe4b361107549cb,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.1e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087769153426874012, guid: a76fa3ae981ac504cbe4b361107549cb,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 6.491e-42
       objectReference: {fileID: 0}
     - target: {fileID: 8087769153426874013, guid: a76fa3ae981ac504cbe4b361107549cb,
         type: 3}
