@@ -5,8 +5,8 @@ using UnityEngine.Networking;
 public class PlayerSpells : NetworkBehaviour
 {
     public GameObject PlayerLocal;
-    public GameObject fireballLaunch;
-    public Transform fireballSpawn;
+   // public GameObject fireballLaunch;
+    //public Transform fireballSpawn;
     // Start is called before the first frame update
     void Start()
     {
