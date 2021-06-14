@@ -23,7 +23,18 @@ public class PlayerSpells : NetworkBehaviour
             PlayerLocal.GetComponent<Animator>().Play("Fireball", -1, 0f);
            // Fireball();
             }
-            //else { PlayerLocal.GetComponent<Animator>().Play("Fireball", -1, 0f);}
+
+        if (Input.GetKeyDown("z"))
+        {
+            PlayerLocal.GetComponent<Animator>().Play("InWalk", -1, 0f);
+            
+        }
+        if (Input.GetKeyDown("s"))
+        {
+            PlayerLocal.GetComponent<Animator>().Play("InWalk", -1, 0f);
+
+        }
+        //else { PlayerLocal.GetComponent<Animator>().Play("Fireball", -1, 0f);}
     }
    
 }
