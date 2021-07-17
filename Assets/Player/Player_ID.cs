@@ -23,7 +23,7 @@ public class Player_ID : NetworkBehaviour
  
     void Update()
     {
-        if(myTransform.name == "" || myTransform.name == "Joueur(Clone)")
+        if(myTransform.name == "" || myTransform.name == "Joueur 1(Clone)")
         {
             SetIdentity();
         }
