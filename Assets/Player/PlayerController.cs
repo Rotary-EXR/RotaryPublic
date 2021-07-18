@@ -41,7 +41,7 @@ using Random = UnityEngine.Random;
         public GameObject Playercam;
     public GameObject Playercam1;
     public GameObject PlayerHead;
-        public float sensitivity = 8f;
+        public float sensitivity = 7f;
         public float maxYAngle = 80f;
     public Vector3 jump;
     public float jumpForce = 2.1f;
@@ -114,12 +114,12 @@ using Random = UnityEngine.Random;
 
             if (Input.GetKey("q"))
             {
-            if (t == 0) { transform.Translate(-0.1f, 0, 0); }
+            if (t == 0) { transform.Translate(-0.08f, 0, 0); }
 
             }
             if (Input.GetKey("d"))
             {
-            if (t == 0) { transform.Translate(0.1f, 0, 0); }
+            if (t == 0) { transform.Translate(0.08f, 0, 0); }
 
             }
         if (t == 0)
@@ -163,10 +163,14 @@ using Random = UnityEngine.Random;
 
 
                     }
-                    else if (t == 1) { t = 0; }
+                    
                 }
-
+                else if (t == 1) {
+                    t = 0;
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
                 }
+            }
                 if (Input.GetKey("escape"))
                 {
                 if (t == 0) {
