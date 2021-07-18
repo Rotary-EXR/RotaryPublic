@@ -41,10 +41,10 @@ using Random = UnityEngine.Random;
         public GameObject Playercam;
     public GameObject Playercam1;
     public GameObject PlayerHead;
-        public float sensitivity = 10f;
-        public float maxYAngle = 75f;
+        public float sensitivity = 8f;
+        public float maxYAngle = 80f;
     public Vector3 jump;
-    public float jumpForce = 2.0f;
+    public float jumpForce = 2.1f;
 
     public bool isGrounded;
     Rigidbody rb;
@@ -140,6 +140,7 @@ using Random = UnityEngine.Random;
             stoneSpawn.transform.Translate(Vector3.forward * Input.GetAxis("Mouse ScrollWheel"));
             if (Input.GetMouseButtonDown(0))
                 {
+
                 if (t == 0)
                 {
                     RaycastHit hit;
@@ -162,6 +163,7 @@ using Random = UnityEngine.Random;
 
 
                     }
+                    else if (t == 1) { t = 0; }
                 }
 
                 }
@@ -182,32 +184,32 @@ using Random = UnityEngine.Random;
                     {
 
                         rotation = 30;
-                        Debug.Log(rotation);
+                        
                     }
                     else if (rotation == 30)
                     {
                         rotation = 60;
-                        Debug.Log(rotation);
+                        
                     }
                     else if (rotation == 60)
                     {
                         rotation = 90;
-                        Debug.Log(rotation);
+                        
                     }
                     else if (rotation == 90)
                     {
                         rotation = 120;
-                        Debug.Log(rotation);
+                        
                     }
                     else if (rotation == 120)
                     {
                         rotation = 150;
-                        Debug.Log(rotation);
+                        
                     }
                     else if (rotation == 150)
                     {
                         rotation = 180;
-                        Debug.Log(rotation);
+                        
                     }
                     else if (rotation == 180)
                     {
