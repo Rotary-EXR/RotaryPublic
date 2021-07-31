@@ -44,10 +44,10 @@ public class CustomNetworkManu : MonoBehaviour
         }
         NetworkManager.singleton.StartClient();
     }
-    public void SetupDisconnectMenu()
+    public void SetupDisconnectMenu() // REPLACE WITH TRUE MENU
     {
-      GameObject.Find("ButtonDisconnect").GetComponent<Button>().onClick.RemoveAllListeners();
-      GameObject.Find("ButtonDisconnect").GetComponent<Button>().onClick.AddListener(StopHostAndClient);
+     // GameObject.Find("ButtonDisconnect").GetComponent<Button>().onClick.RemoveAllListeners();
+     // GameObject.Find("ButtonDisconnect").GetComponent<Button>().onClick.AddListener(StopHostAndClient);
     }
     public void StopHostAndClient()
     {
@@ -67,7 +67,7 @@ public class CustomNetworkManu : MonoBehaviour
         }
         else
         {
-          SetupDisconnectMenu();
+         // SetupDisconnectMenu();
         }
     }
     private void Update()
