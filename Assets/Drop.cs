@@ -13,7 +13,7 @@ public class Drop : NetworkBehaviour
     {
 
     }
-    public GameObject drop;//your sword
+    public GameObject drop;
 
     private void OnDestroy() //called, when enemy will be destroyed
     {
