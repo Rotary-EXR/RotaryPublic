@@ -2,4 +2,3 @@ Rotary is a project that I started a few month ago, my goal being to think multi
 
 Discord : https://discord.gg/adhBtzh3jF
 
-NOT USE THIS BRANCHE.
