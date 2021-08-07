@@ -80,7 +80,7 @@ using Random = UnityEngine.Random;
 
     void OnCollisionStay()
     {
-        if (!isGrounded && rb.velocity.y == 0)
+        if (!isGrounded && rb.velocity.y == 0 || !isGrounded && rb.velocity.y == 0.1 || !isGrounded && rb.velocity.y < 0.1)
         {
             isGrounded = true;  }
                                //isGrounded = true;
