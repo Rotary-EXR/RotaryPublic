@@ -42,7 +42,7 @@ using Random = UnityEngine.Random;
     public GameObject Playercam1;
     public GameObject PlayerHead;
         public float sensitivity = 7f;
-        public float maxYAngle = 80f;
+        public float maxYAngle = 90f;
     public Vector3 jump;
     public float jumpForce = 2.1f;
 
@@ -114,12 +114,12 @@ using Random = UnityEngine.Random;
 
             if (Input.GetKey("q"))
             {
-            if (t == 0) { transform.Translate(-0.025f, 0, 0); }
+            if (t == 0) { transform.Translate(-0.06f, 0, 0); }
 
             }
             if (Input.GetKey("d"))
             {
-            if (t == 0) { transform.Translate(0.025f, 0, 0); }
+            if (t == 0) { transform.Translate(0.06f, 0, 0); }
 
             }
         if (t == 0)
