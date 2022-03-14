@@ -80,7 +80,7 @@ using Random = UnityEngine.Random;
 
     void OnCollisionStay()
     {
-        if (!isGrounded && rb.velocity.y == 0)
+        if (!isGrounded && rb.velocity.y == 0 || !isGrounded && rb.velocity.y == 0.1 || !isGrounded && rb.velocity.y < 0.1)
         {
             isGrounded = true;  }
                                //isGrounded = true;
@@ -114,12 +114,12 @@ using Random = UnityEngine.Random;
 
             if (Input.GetKey("q"))
             {
-            if (t == 0) { transform.Translate(-0.08f, 0, 0); }
+            if (t == 0) { transform.Translate(-0.025f, 0, 0); }
 
             }
             if (Input.GetKey("d"))
             {
-            if (t == 0) { transform.Translate(0.08f, 0, 0); }
+            if (t == 0) { transform.Translate(0.025f, 0, 0); }
 
             }
         if (t == 0)
